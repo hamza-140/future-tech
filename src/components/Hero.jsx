@@ -1,12 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 import abstract from "../assets/abstract.png"; // adjust path as needed
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 function Hero() {
   return (
-    <section className="">
+    <section className="bg-[#141414]">
       <div className="flex flex-col">
-        {/* Top Row: 60% / 40% */}
         <div className="flex flex-col md:flex-row">
           <div className="flex-1 pl-30 pr-15 md:basis-[60%] border-[0.2px] border-gray-700 h-140 flex flex-col justify-center">
             <h2 className="text-[#666666] mb-8 text-lg md:text-xl font-medium">
@@ -70,17 +69,81 @@ function Hero() {
             </div>
           </div>
         </div>
+        <div className="grid grid-cols-1 md:grid-cols-3">
+          <div className="py-10 px-20 border-[0.2px] border-gray-700 flex items-center justify-center">
+            <div className="flex flex-col w-full max-w-md">
+              <img
+                className="w-12 h-12 mb-5"
+                alt="Logo"
+                src="/src/assets/star.svg"
+              />
+              <div className="flex justify-between items-start w-full">
+                <div className="flex flex-col">
+                  <h3 className="text-white font-medium">
+                    Latest News Updates
+                  </h3>
+                  <p className="text-[#666666] text-base md:text-base">
+                    Stay Current
+                  </p>
+                </div>
+                <div className="w-10 h-10 hover:cursor-pointer rounded-full bg-[#FFD11A] flex items-center justify-center">
+                  <ArrowUpRight className="text-black w-5 h-5" />
+                </div>
+              </div>
 
-        {/* Bottom Row: 3 Equal Boxes */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          <div className="bg-green-400 h-32 rounded-lg flex items-center justify-center">
-            Box 3
+              <h3 className="text-gray-400 mt-6">
+                Over 1,000 articles published monthly
+              </h3>
+            </div>
           </div>
-          <div className="bg-pink-400 h-32 rounded-lg flex items-center justify-center">
-            Box 4
+
+          <div className="py-10 px-20 border-[0.2px] border-gray-700 flex items-center justify-center">
+            <div className="flex flex-col w-full max-w-md">
+              <img
+                className="w-12 h-12 mb-5"
+                alt="Logo"
+                src="/src/assets/leaf.svg"
+              />
+              <div className="flex justify-between items-start w-full">
+                <div className="flex flex-col">
+                  <h3 className="text-white font-medium">
+                    Expert Contributors
+                  </h3>
+                  <p className="text-[#666666] text-base md:text-base">
+                    Trusted Insights
+                  </p>
+                </div>
+                <div className="w-10 h-10 hover:cursor-pointer rounded-full bg-[#FFD11A] flex items-center justify-center">
+                  <ArrowUpRight className="text-black w-5 h-5" />
+                </div>
+              </div>
+
+              <h3 className="text-gray-400 mt-6">
+                50+ renowned AI experts on our team
+              </h3>
+            </div>
           </div>
-          <div className="bg-purple-400 h-32 rounded-lg flex items-center justify-center">
-            Box 5
+          <div className="py-10 px-20 border-[0.2px] border-gray-700 flex items-center justify-center">
+            <div className="flex flex-col w-full max-w-md">
+              <img
+                className="w-12 h-12 mb-5"
+                alt="Logo"
+                src="/src/assets/flower.svg"
+              />
+              <div className="flex justify-between items-start w-full">
+                <div className="flex flex-col">
+                  <h3 className="text-white font-medium">Global Readership</h3>
+                  <p className="text-[#666666] text-base md:text-base">
+                    Worldwide Impact
+                  </p>
+                </div>
+                <div className="w-10 h-10 hover:cursor-pointer rounded-full bg-[#FFD11A] flex items-center justify-center">
+                  <ArrowUpRight className="text-black w-5 h-5" />
+                </div>
+              </div>
+
+              <h3 className="text-gray-400 mt-6">2 million monthly readers</h3>
+            </div>
           </div>
         </div>
       </div>
