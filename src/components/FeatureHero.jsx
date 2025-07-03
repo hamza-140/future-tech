@@ -4,11 +4,7 @@ function FeatureHero() {
       <div className="flex flex-col">
         <div className="flex flex-col md:flex-row">
           <div className="flex-1 pl-30 py-20 pr-15 md:basis-[40%] border-[0.2px] border-[#1A1A1A] flex flex-col justify-center">
-            <img
-              className="w-12 h-12 mb-5"
-              alt="Logo"
-              src="/src/assets/fan.svg"
-            />
+            <img className="w-12 h-12 mb-5" alt="Logo" src="/fan.svg" />
             <h1 className="text-xl md:text-3xl font-semibold text-white leading-tight">
               Future Technology Blog
             </h1>
@@ -59,11 +55,7 @@ function FeatureHero() {
         </div>
         <div className="flex flex-col md:flex-row">
           <div className="flex-1 pl-30 py-20 pr-15 md:basis-[40%] border-[0.2px] border-gray-700 flex flex-col justify-center">
-            <img
-              className="w-12 h-12 mb-5"
-              alt="Logo"
-              src="/src/assets/box.svg"
-            />
+            <img className="w-12 h-12 mb-5" alt="Logo" src="/box.svg" />
             <h1 className="text-xl md:text-3xl font-semibold text-white leading-tight">
               Research Insights Blogs
             </h1>

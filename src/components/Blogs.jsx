@@ -56,7 +56,7 @@ function Blogs() {
               <div className="text-gray-400 text-sm flex items-center gap-2 pr-30">
                 <img
                   className="w-10 h-10 rounded-full border-2 border-white"
-                  src="/src/assets/user.jpg"
+                  src="/user.jpg"
                   alt="User 1"
                 />
                 <div className="flex flex-col">

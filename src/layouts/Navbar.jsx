@@ -21,7 +21,7 @@ const Navbar = () => {
   return (
     <nav className="bg-[#1A1A1A] flex justify-between items-center px-20 py-4">
       <div className="title flex justify-center items-center space-x-2">
-        <img src="/src/assets/icon.svg" className="w-12 h-12" alt="Logo" />
+        <img src="/icon.svg" className="w-12 h-12" alt="Logo" />
         <h2 className="text-white font-bold">FutureTech</h2>
       </div>
 

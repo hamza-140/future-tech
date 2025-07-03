@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import abstract from "../assets/abstract.png"; // adjust path as needed
+import abstract from "/abstract.png";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 function Hero() {
@@ -33,17 +33,17 @@ function Hero() {
                 <div className="flex -space-x-4">
                   <img
                     className="w-10 h-10 rounded-full border-2 border-white"
-                    src="/src/assets/user.jpg"
+                    src="/user.jpg"
                     alt="User 1"
                   />
                   <img
                     className="w-10 h-10 rounded-full border-2 border-white"
-                    src="/src/assets/user.jpg"
+                    src="/user.jpg"
                     alt="User 2"
                   />
                   <img
                     className="w-10 h-10 rounded-full border-2 border-white"
-                    src="/src/assets/user.jpg"
+                    src="/user.jpg"
                     alt="User 3"
                   />
                   <div className="w-10 h-10 rounded-full bg-gray-700 text-white flex items-center justify-center text-sm font-medium border-2 border-white">
@@ -72,11 +72,7 @@ function Hero() {
         <div className="grid grid-cols-1 md:grid-cols-3">
           <div className="py-10 px-20 border-[0.2px] border-gray-700 flex items-center justify-center">
             <div className="flex flex-col w-full max-w-md">
-              <img
-                className="w-12 h-12 mb-5"
-                alt="Logo"
-                src="/src/assets/star.svg"
-              />
+              <img className="w-12 h-12 mb-5" alt="Logo" src="/star.svg" />
               <div className="flex justify-between items-start w-full">
                 <div className="flex flex-col">
                   <h3 className="text-white font-medium">
@@ -99,11 +95,7 @@ function Hero() {
 
           <div className="py-10 px-20 border-[0.2px] border-gray-700 flex items-center justify-center">
             <div className="flex flex-col w-full max-w-md">
-              <img
-                className="w-12 h-12 mb-5"
-                alt="Logo"
-                src="/src/assets/leaf.svg"
-              />
+              <img className="w-12 h-12 mb-5" alt="Logo" src="/leaf.svg" />
               <div className="flex justify-between items-start w-full">
                 <div className="flex flex-col">
                   <h3 className="text-white font-medium">
@@ -125,11 +117,7 @@ function Hero() {
           </div>
           <div className="py-10 px-20 border-[0.2px] border-gray-700 flex items-center justify-center">
             <div className="flex flex-col w-full max-w-md">
-              <img
-                className="w-12 h-12 mb-5"
-                alt="Logo"
-                src="/src/assets/flower.svg"
-              />
+              <img className="w-12 h-12 mb-5" alt="Logo" src="/flower.svg" />
               <div className="flex justify-between items-start w-full">
                 <div className="flex flex-col">
                   <h3 className="text-white font-medium">Global Readership</h3>
