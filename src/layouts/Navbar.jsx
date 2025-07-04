@@ -33,7 +33,7 @@ const Navbar = () => {
 
       <Button
         text={user ? "Publish" : "Login"}
-        to={user ? "/news" : "/login"}
+        to={user ? "/publish" : "/login"}
       />
     </nav>
   );

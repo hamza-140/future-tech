@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./Header";
 import { Outlet } from "react-router-dom";
+import ConnectBanner from "./ConnectBanner";
+import Footer from "./Footer";
 
 const AppLayout = () => {
   return (
@@ -11,6 +13,8 @@ const AppLayout = () => {
           <Outlet />
         </main>
       </div>
+      <ConnectBanner />
+      <Footer />
     </div>
   );
 };

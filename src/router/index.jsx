@@ -4,17 +4,16 @@ import Login from "../pages/Login";
 import Signup from "../pages/Signup";
 import Home from "../pages/Home";
 import AppLayout from "../layouts/AppLayout";
+import Publish from "../pages/Publish";
 
 const AppRoutes = () => {
   return (
     <BrowserRouter>
       <Routes>
-        {/* Always show Home inside AppLayout */}
         <Route element={<AppLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/publish" element={<Publish />} />
         </Route>
-
-        {/* Public Routes */}
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
       </Routes>

@@ -6,7 +6,7 @@ import FeatureBanner from "../components/FeatureBanner";
 import FeatureHero from "../components/FeatureHero";
 import ExploreBanner from "../components/ExploreBanner";
 import Blogs from "../components/Blogs";
-import ConnectBanner from "../components/ConnectBanner";
+import ConnectBanner from "../layouts/ConnectBanner";
 const Home = () => {
   const user = useSelector((state) => state.auth.user);
   const dispatch = useDispatch();
@@ -22,7 +22,6 @@ const Home = () => {
       <FeatureHero />
       <ExploreBanner />
       <Blogs />
-      <ConnectBanner />
     </div>
   );
 };
