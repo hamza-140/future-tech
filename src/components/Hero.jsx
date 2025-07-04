@@ -21,7 +21,7 @@ function Hero() {
               AI.
             </p>
           </div>
-          <div className="relative flex-1 md:basis-[40%] h-140 flex items-end border-[0.2px] border-gray-700  overflow-hidden">
+          <div className="relative flex-1 md:basis-[40%] h-140 flex items-end border-[0.2px] border-gray-700 overflow-hidden">
             <img
               src={abstract}
               alt="Decorative Abstract"
