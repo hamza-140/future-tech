@@ -13,8 +13,8 @@ const Navbar = () => {
 
   const navItems = [
     { label: "Home", path: "/" },
-    { label: "News", path: "/news" },
-    { label: "Podcasts", path: "/podcasts" },
+    { label: "Blogs", path: "/blogs" },
+    { label: "Publish", path: "/publish" },
     { label: "Resources", path: "/resources" },
   ];
 
@@ -32,8 +32,8 @@ const Navbar = () => {
       </div>
 
       <Button
-        text={user ? "Publish" : "Login"}
-        to={user ? "/publish" : "/login"}
+        text={user ? "Profile" : "Login"}
+        to={user ? "/profile" : "/login"}
       />
     </nav>
   );

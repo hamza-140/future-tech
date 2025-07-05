@@ -5,6 +5,7 @@ import Signup from "../pages/Signup";
 import Home from "../pages/Home";
 import AppLayout from "../layouts/AppLayout";
 import Publish from "../pages/Publish";
+import Profile from "../pages/Profile";
 
 const AppRoutes = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
           <Route path="/publish" element={<Publish />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
+          <Route path="/profile" element={<Profile />} />
         </Route>
       </Routes>
     </BrowserRouter>
